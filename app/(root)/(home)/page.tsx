@@ -11,7 +11,7 @@ interface Props {
   searchParams: { [key: string]: string | undefined }
 }
 
-const Page = async ({ searchParams }: Props) => {
+const page = async ({ searchParams }: Props) => {
   console.log(searchParams);
   const resources = await getResources({
     query: searchParams?.query || '',
@@ -83,4 +83,4 @@ const Page = async ({ searchParams }: Props) => {
   )
 }
 
-export default Page
+export default page
