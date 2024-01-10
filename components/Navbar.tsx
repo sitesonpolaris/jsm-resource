@@ -25,12 +25,12 @@ const Navbar = () => {
 
             <ul className="flex-center gap-x-3 max-md:hidden md:gap-x-10">
                 <li className="body-text text-gradient_blue-purple !font-bold">
-                    <Link href={"https://jsmastery.pro/next13"} target="_blank">
-                    Next.js 13.4 Course</Link>
+                    <Link href={"https://sitesonpolaris.com"} target="_blank">
+                    Sites on Polaris</Link>
                 </li>
                 <li className="body-text font-normal">
-                    <Link href={"https://jsmastery.pro/masterclass"} target="_blank">
-                    Masterclass</Link>
+                    <Link href={"https://manage.wix.com/marketplace/wix-partner/jesse-shepeard"} target="_blank">
+                    Wix Marketplace Profile</Link>
                 </li>
             </ul>
         </div>

@@ -4,8 +4,8 @@ import './globals.css'
 
 
 export const metadata: Metadata = {
-  title: 'JS Mastery',
-  description: 'JS Mastery resources',
+  title: 'SoP Web Portfolio',
+  description: 'Web projects from Sites on Polaris',
   other: {
     'theme-color': '#0d1117',
     "color-scheme": "dark only",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "og:image": 'https://static.wixstatic.com/media/c73eb8_f0c68fbf71154ad99db4ec936e623755~mv2.jpg',
     "og:type": "website",
   }
-}
+};
 
 export default function RootLayout({
   children,
